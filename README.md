@@ -1,8 +1,8 @@
-# python-newsfeed
+# Python Newsfeed
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 #
 ## [Deployed Link](https://jtn-python-newsfeed.herokuapp.com)
-![Example gif](#)
+![Example gif](./assets/readme_demonstration.gif)
 
 ## Table of Contents
 * [Description](#Description)
@@ -51,7 +51,7 @@ python -m venv venv
 ```
 
 * Modify the `.env.EXAMPLE` to include your mysql password and rename it to `.env`
-* When inside the virtual environment, run 
+* When inside the virtual environment, run in the terminal:
 ```python
 pip install flask pymysql python-dotenv sqlalchemy bcrypt cryptography #installs dependencies
 ```
@@ -63,3 +63,19 @@ python -m flask run #starts the flask server
 ```python
 python seeds.py #seed the database
 ```
+
+## Usage
+
+Create an account and log in.  View and create comments on other users' posts and upvote them.  Create a post through the dashboard and add a title and URL.
+
+## Credits
+
+[UC Berkeley Bootcamp](https://bootcampspot.com/)\
+[Python](https://www.python.org/)
+
+## License
+
+This application is licensed under [MIT](https://opensource.org/licenses/MIT).
+
+## Questions
+Please direct any questions to me at jtn.mechocreamy@gmail.com.
