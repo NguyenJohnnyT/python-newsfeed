@@ -51,9 +51,13 @@ python -m venv venv
 ```
 
 * Modify the `.env.EXAMPLE` to include your mysql password and rename it to `.env`
-* When inside the virtual environment, run in the terminal:
+* When inside the virtual environment, run either of the following commands in the terminal:
 ```python
 pip install flask pymysql python-dotenv sqlalchemy bcrypt cryptography #installs dependencies
+```
+or
+```python
+pip install -r requirements.txt #uses the requirements.txt file to install the necessary dependencies
 ```
 * Activate flask and create the server (default address is `127.0.0.1:5000`)
 ```python
